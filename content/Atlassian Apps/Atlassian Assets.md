@@ -19,4 +19,17 @@ A decade ago when we were evaluating replacing our aging ITSM solution, we looke
 
 Insight Changed the game by adding a simple Object-Orientated Database, and a few custom fields that allowed you to access those objects, restricting the fields by a "Insight Query Language".
 
-Fast forward 7 or so years and Atlassian Purchased the APP from Mindville, and made it free in Datacenter (YAY) - with JSM purchase. They started folding it into cloud -- but required Premium Tier (BOO) 
+Fast forward 7 or so years and Atlassian Purchased the APP from Mindville, and made it free in Datacenter (YAY) - with JSM purchase. They started folding it into cloud -- but required Premium Tier (BOO).
+
+### Differences between Cloud and Datacenter
+
+* Cloud
+	* Automations (for Jira), Forms (formerly Proforma) can use Assets inside them
+	* Confluence Macros for Assets are FAR weaker
+		* Currently a bug that cannot render Asset fields inside a Jira Work issue Macro
+		* Currently no way to render Verticle Assets
+		* Currently no way to render a single attribute on a Confluence page.
+	* Asset COUNT restrictions exist.
+		* 250k for Premium
+		* 500k for Enterprise
+	
