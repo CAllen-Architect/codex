@@ -2,42 +2,21 @@
 tags:
   - Atlassian
   - Assets
-  - IT-Architecture
-  - Schema-Design
 project: ITSM Configuration
 status: In-Progress
 last_synced: 2026-05-15
 publish: true
 ---
-Why Assets?
+### Why Assets?
 
 Assets are awesome, they're a Object-Orientated Relational Database, and they're accessible Natively in [[Jira Service Management]] (and even more importantly in [[Automation for Jira]] not only that, they can be rendered on a [[Confluence]] page, and be accessed by their own API... But that just scratches the surface of how they can base used.
 
-# 🏗️ Atlassian Assets Architecture: Home
-> [!ABSTRACT] Executive Summary
-> Central Map of Content (MOC) for the enterprise Assets (formerly Insight) schema. This design creates a "Spider Web" architecture where **IT Assets** acts as the logical hub connecting infrastructure, finance, and identity.
----
-## 🗺️ Schema Registry
+### My history with Assets
 
-| Schema                       | Primary Purpose                   | Source of Truth      |
-| :--------------------------- | :-------------------------------- | :------------------- |
-| **[[IT Assets Catalog]]**    | Services & Applications (The Hub) | Manual Architecture  |
-| **[[Imported Assets]]**      | AWS & Azure Technical Resources   | Cloud Discovery Sync |
-| [[Vendor and Licenses]]      | Procurement & Contracts           | Finance Data         |
-| **[[People & Departments]]** | Org Structure & Ownership         | **EntraID Sync**     |
-| **[[Products & Customers]]** | External Impact & B2B Links       | CRM / Support        |
-| [[Process Library]]          | Collection of Processes and Links | Manual.              |
+Assets used to be a Jira Addon called Insight, made by a corporation called Riadia, later broken off into its own version called "Mindville".
 
----
-## 🕸️ Relationship Topology
-This Mermaid diagram visualizes the AQL reference flow.
-```mermaid
-graph TD
-    IA[IT Assets] -->|Depends On| CL[Imported Assets]
-    IA -->|Managed By| PD[People & Departments]
-    IA -->|Powered By| VL[Vendor & Licenses]
-    PC[Products & Customers] -->|Utilizes| IA
-    VL -->|Assigned To| PD
-    
-    style IA fill:#1e1e2e,stroke:#0052CC,stroke-width:2px
-    style PD fill:#1e1e2e,stroke:#00B8D9,stroke-width:2px
+A decade ago when we were evaluating replacing our aging ITSM solution, we looked a Jira Service Management but it was not strong enough to support customers outside the organization. 
+
+Insight Changed the game by adding a simple Object-Orientated Database, and a few custom fields that allowed you to access those objects, restricting the fields by a "Insight Query Language".
+
+Fast forward 7 or so years and Atlassian Purchased the APP from Mindville, and made it free in Datacenter (YAY) - with JSM purchase. They started folding it into cloud -- but required Premium Tier (BOO) 

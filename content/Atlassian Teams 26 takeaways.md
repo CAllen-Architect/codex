@@ -53,7 +53,7 @@ Future development[[ Development CLI]]
 > [!QUOTE] The Architect's Rule
 > AI is only as smart as the metadata provided. Assets fill the "20% Gap" for legacy/unconnected systems.
 
-* **[[Atlassian Assets]] Discipline:** Mandate attribute updates as part of the "Definition of Done" for all implementation tickets.
+* **[[Assets MOC Blueprint]] Discipline:** Mandate attribute updates as part of the "Definition of Done" for all implementation tickets.
 * **Legacy Bridging:** Create Asset Objects for tools without native AI connectors. By feeding Rovo a clean Asset schema, it can "discuss" legacy systems it cannot natively index.
 
 ---
