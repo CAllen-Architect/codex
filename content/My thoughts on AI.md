@@ -17,7 +17,10 @@ That’s the reality now. The prophets of AI are loud, pervasive, and desperatel
 
 My late father used to have a phrase about money that perfectly maps to this moment. To paraphrase him:
 
+
+> [!CITE] 
 > "AI is a wonderful servant, but a horrible master."
+
 
 I believe this is the ultimate thesis statement for our modern technological era. 
 
@@ -53,8 +56,9 @@ So, cutting through the hype, where is the actual future for this technology? I 
 
 ## Quiet Value
 
-Because of that third use case, I am always deeply wary of products shouting *"Gizmo, now with AI!"* or *"AI-powered Doodad!"* It’s marketing gimmickry at its finest, and it brings me back to another piece of wisdom from my father:
+Because of that third use case, I am always deeply wary of products shouting *"Gizmo, now with AI!"*. It’s marketing gimmickry at its finest, and it brings me back to another piece of wisdom from my father:
 
+> [!CITE] 
 > "A lion never has to advertise that it's a lion."
 
 That is timeless advice for almost anything—especially people. The highest-value processes and the most capable individuals don't need a loudspeaker. They are out there executing quietly, adding real value, and sharing their knowledge without demanding a standing ovation.
