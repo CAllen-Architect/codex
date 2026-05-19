@@ -39,7 +39,9 @@ While Atlassian platforms represent the gold standard for project execution and 
 ### Abstracting Peripheral Platforms (ERP, HRIS)
 In an enterprise environment, significant operational data inevitably lives outside these two ecosystems—neither Microsoft nor Atlassian natively serves as a primary HRIS or core ERP. 
 To bridge this gap, **Atlassian Assets** should act as the central metadata registry. Rather than manual entry, these external contexts should be populated via automated pipelines. For example, exporting a daily vendor registry from procurement software directly into Assets creates a reference network. 
+
 Employees can then log tickets against these registered corporate applications. Ultimately, this allows Rovo to parse complex cross-platform queries, such as: *"What systemic operational issues have internal teams reported concerning products managed by Vendor X?"*
+
 ---
 ## 🕸️ Relationship Topology
 ```mermaid
