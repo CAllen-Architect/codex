@@ -38,20 +38,22 @@ The first step to unlocking this power is a mental paradigm shift: **Stop thinki
 
 When an incident strikes or a change request is submitted, Jira shouldn't just know *what* hardware is broken. It needs to know the entire web of operational reality surrounding that asset. 
 
+Each object below here, would be its own entry in Assets, even the users -- this way you can trace everything to its source and everything impacted! 
+
 Hungry for more? Check out our [[Assets MOC Blueprint]] for more how-to-structure.
 
 ```mermaid
 flowchart TD
     %% --------------------------------------------
-    %% 1. Node Declarations
+    %% 1. Node Declarations (Using Strict MD-String Notation)
     %% --------------------------------------------
-    DIR["Director of
-    Cybersecurity"]
+    DIR["`Director of
+    Cybersecurity`"]
     SIEM[("SIEM Application")]
-    USR["Cyber
-    Specialist User"]
-    DEPT["Cybersecurity
-    Department"]
+    USR["`Cyber
+    Specialist User`"]
+    DEPT["`Cybersecurity
+    Department`"]
     LOC["New York Office"]
     LP["Laptop Asset"]
     PH["Phone Asset"]
