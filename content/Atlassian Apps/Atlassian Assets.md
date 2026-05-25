@@ -8,7 +8,7 @@ project: ITSM Configuration
 status: In-Progress
 last_synced: 2026-05-21
 publish: true
-title: "Shifting Paradigms: Assets as an Enterprise Context Registry"
+title: "Assets the Enterprise Context Registry"
 ---
 
 ## How Atlassian Describes Assets
@@ -41,15 +41,17 @@ When an incident strikes or a change request is submitted, Jira shouldn't just k
 Hungry for more? Check out our [[Assets MOC Blueprint]] for more how-to-structure.
 
 ```mermaid
-%%{init: {'theme': 'base', 'themeVariables': { 'fontSize': '12px'}, 'flowchart': {'useMaxWidth': false, 'curve': 'basis'}} }%%
 flowchart TD
     %% --------------------------------------------
     %% 1. Node Declarations
     %% --------------------------------------------
-    DIR["Director of <br> Cybersecurity"]
+    DIR["Director of
+    Cybersecurity"]
     SIEM[("SIEM Application")]
-    USR["Cyber <br>Specialist User"]
-    DEPT["Cybersecurity <br>Department"]
+    USR["Cyber
+    Specialist User"]
+    DEPT["Cybersecurity
+    Department"]
     LOC["New York Office"]
     LP["Laptop Asset"]
     PH["Phone Asset"]
@@ -82,4 +84,4 @@ flowchart TD
     class LP,PH hardware;
     class SIEM app;
     class DEPT business;
-	class LOC location;
+    class LOC location;
