@@ -38,6 +38,8 @@ The first step to unlocking this power is a mental paradigm shift: **Stop thinki
 
 When an incident strikes or a change request is submitted, Jira shouldn't just know *what* hardware is broken. It needs to know the entire web of operational reality surrounding that asset. 
 
+Thirsty for more? Check out our [[Assets MOC Blueprint]] for more how-to structure.
+
 ```mermaid
 %%{init: {'theme': 'base', 'themeVariables': { 'fontSize': '12px'}, 'flowchart': {'useMaxWidth': false, 'curve': 'basis'}} }%%
 flowchart TD

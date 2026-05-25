@@ -7,7 +7,7 @@ tags:
 schema: Imported Assets
 source: Cloud Discovery / Connector Sync
 publish: true
-title: Atlassian Assets Architecture Blueprint
+title: Assets Architecture Blueprint
 ---
 
 
@@ -18,7 +18,7 @@ By treating Assets as an Enterprise Context Registry, this design positions the 
 
 ---
 ![[Gemini_Generated_Image_dppnrvdppnrvdppn.png|500]]
-Gemini Generated image to help with concept.
+
 
 
 ## 🗺️ The Enterprise Schema Registry
