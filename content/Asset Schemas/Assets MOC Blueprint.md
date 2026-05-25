@@ -17,8 +17,6 @@ This document serves as the central **Map of Context (MOC)** for the enterprise 
 By treating Assets as an Enterprise Context Registry, this design positions the **Process Asset Library (PAL)** as the absolute operational core. Rather than centering our database around passive hardware, infrastructure elements are mapped as dependencies to our corporate processes. This makes the Process Library the central trigger hook for enterprise automation, request routing, ticket creation, and compliance mapping.
 
 ---
-![[Gemini_Generated_Image_dppnrvdppnrvdppn.png|500]]
-
 
 
 ## 🗺️ The Enterprise Schema Registry
