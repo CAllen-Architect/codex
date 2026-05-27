@@ -40,50 +40,7 @@ When an incident strikes or a change request is submitted, Jira shouldn't just k
 
 Each object below here, would be its own entry in Assets, even the users -- this way you can trace everything to its source and everything impacted! 
 
+
+![[AssetsDemo]]
+
 Hungry for more? Check out our [[Assets MOC Blueprint]] for more how-to-structure.
-
-```mermaid
-flowchart TD
-    %% --------------------------------------------
-    %% 1. Node Declarations (Using Strict MD-String Notation)
-    %% --------------------------------------------
-    DIR["`Director of
-    Cybersecurity`"]
-    SIEM[("SIEM Application")]
-    USR["`Cyber
-    Specialist User`"]
-    DEPT["`Cybersecurity
-    Department`"]
-    LOC["New York Office"]
-    LP["Laptop Asset"]
-    PH["Phone Asset"]
-
-    %% --------------------------------------------
-    %% 2. The Clean Layout Topology
-    %% --------------------------------------------
-    DIR -->|Manages| USR
-    DIR -->|Business Owner| SIEM
-    DIR -->|Member Of| DEPT
-    DIR -->|Based Out Of| LOC
-
-    USR -->|Member Of| DEPT
-    USR -->|Based Out Of| LOC
-    
-    SIEM <-.-|Technical Owner| USR
-    USR ==>|Assigned Device| LP
-    USR ==>|Assigned Device| PH
-
-    %% --------------------------------------------
-    %% 3. Visual Styling
-    %% --------------------------------------------
-    classDef people fill:#0052CC,color:#fff,stroke:#003A99,stroke-width:1px;
-    classDef hardware fill:#4C566A,color:#fff,stroke:#2E3440,stroke-width:1px;
-    classDef app fill:#D08770,color:#fff,stroke:#BF616A,stroke-width:2px;
-    classDef business fill:#8FBCBB,color:#2E3440,stroke:#5E81AC,stroke-width:1px;
-    classDef location fill:#61483a,color:#fff,stroke:#4a352b,stroke-width:1px;
-
-    class DIR,USR people;
-    class LP,PH hardware;
-    class SIEM app;
-    class DEPT business;
-    class LOC location;
