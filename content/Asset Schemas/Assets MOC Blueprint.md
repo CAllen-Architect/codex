@@ -10,7 +10,6 @@ publish: true
 title: Assets Architecture Blueprint
 ---
 
-
 ## Executive Summary
 This document serves as the central **Map of Context (MOC)** for the enterprise Assets schema. It outlines a federated, multi-schema design that rejects the legacy "flat inventory" approach in favor of a dynamic, workflow-driven "Spider Web" architecture. 
 
@@ -23,8 +22,7 @@ By treating Assets as an Enterprise Context Registry, this design positions the 
 
 To ensure optimal performance, clean data lifecycle management, and strict access controls, the registry is split into logical domain boundaries. Each domain operates as an independent schema, cross-linked via reference attributes to form the enterprise web.
 
-
-
+![[AssetSchemas.svg]]
 ### 1. Process Library (The Operational Engine - THE CORE)
 * **Scope:** A highly curated collection of operational frameworks, intake criteria, automation hooks, and compliance workflows tracked as live objects.
 * **Key Object Types:** `Operational Workflows`, `Standard Operating Procedures`, `Change Approval Matrices`, `Compliance Frameworks`.
