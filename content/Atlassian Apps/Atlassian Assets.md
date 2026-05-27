@@ -41,6 +41,6 @@ When an incident strikes or a change request is submitted, Jira shouldn't just k
 Each object below here, would be its own entry in Assets, even the users -- this way you can trace everything to its source and everything impacted! 
 
 
-![[AssetsDemo.svg]]
+![[AssetsDemo]]
 
 Hungry for more? Check out our [[Assets MOC Blueprint]] for more how-to-structure.
