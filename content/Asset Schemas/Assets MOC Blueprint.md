@@ -16,7 +16,7 @@ By treating Assets as an Enterprise Context Registry, this design positions the 
 
 
 > [!NOTE] This is a General blueprint
-> The goal of this Map is to get every part of your organization to feed this as part of their normal business processes, if you can automate/connect to other sources of truth, that is ideal, but it doesn't have to be all at once. You can create a manual entry for now, and automate/curate it later.
+> The goal of this Map is to establish a living framework where every business unit naturally feeds telemetry into the registry as a byproduct of normal operations. While seamless API integrations and live connectors to authoritative sources remain the ultimate target, full automation is an iterative journey. Initial manual curation is encouraged to baseline the data, which can then be systematically automated, refined, and scaled downstream.
 
 
 ---
@@ -33,9 +33,9 @@ To ensure optimal performance, clean data lifecycle management, and strict acces
 * **The Strategic Center:** This schema dictates *how* business gets done. When Jira Automation fires, it references objects in this library to determine ticket routing paths, approval loops, and asset lifecycle transitions.
 
 > [!NOTE] Drive the context of HOW (your business works) 
-> - Pull into Work items to drive Automation (like Cybersecurity Group Must approve X) 
-> - Link to confluence page/documentation tracking your organizations real Processes
-> - Create Process Links to each other, Process 1 Outbounds to Process 3 Outbounds to 3
+> - Inject live process objects directly into active Jira Service Management work items to trigger dynamic, conditional automation rules (such as enforcing specific InfoSec compliance signs-offs or localized approval gates).
+> - Map explicit relational links from your technical assets directly to their authoritative Confluence standard operating procedures to establish an audit-ready technical baseline.
+> - Construct explicit dependency links between individual process objects to visualize how an operational shift or upstream outage in one sequence ripples across downstream business operations.
 
 ---
 ### 2. IT Services & Applications (The Technical Registry)
@@ -44,9 +44,9 @@ To ensure optimal performance, clean data lifecycle management, and strict acces
 * **The Context Bridge:** Links directly to the *Process Library* to declare which exact applications are bound by specific change controls or operational procedures.
  
 >[!NOTE] Drive the context of What Tools your Employees Have
-> - This is what your internal users are going to ask for
-> - Hardware Selections to do their jobs.
-> - Contains the (Software) Services users would log tickets on
+> - Serves as the authoritative catalog exposed to end-users within corporate service portals, drastically accelerating self-service issue selection.
+> - Maps hardware profiles directly to end-user personas to dynamically manage internal provisioning pipelines, workspace allocations, and localized hardware asset baselines.
+> - Defines the core application and software layers that form the explicit reference points for routing, sorting, and triaging tier-1 through tier-3 operational incidents.
 
 ---
 ### 3. IT Platforms & Technical Resources (The Dynamic Layer)
@@ -55,9 +55,9 @@ To ensure optimal performance, clean data lifecycle management, and strict acces
 * **Primary Integration:** Automated native cloud import engines, scheduled to discover technical assets and map them as lower-tier dependencies under core Business Applications.
 
 >[!NOTE] Drive the context of what's under the hood.
-> - These will be mostly linked to IT Services.
-> - Provides context to Vulnerability management.
-> - Provides context to Incident Response Management.
+> - Establishes direct structural paths mapping ephemeral, low-level technical infrastructure upward as explicit operational foundations for primary business applications.
+> - Accelerates vulnerability management cycles by cross-referencing scanned infrastructure CVE vulnerabilities against real-world production blast radiuses.
+> - Streamlines incident response actions by allowing SecOps and SRE teams to instantly track high-velocity alert anomalies to their foundational virtualized networks or host machines.
 
 ----
 ### 4. Vendors, Procurement & Licenses (The Financial Layer)
@@ -66,10 +66,10 @@ To ensure optimal performance, clean data lifecycle management, and strict acces
 * **The Context Bridge:** Links vendor capabilities and software spend boundaries directly to the operational processes that consume them.
 
 >[!NOTE] Feeds Business Context to your Assets
-> - Knowing what Vendors your Services depend on helps track outages.
-> - If you don't have a dedicated Software Asset Management you can use this to track renewals
-> 	- Track expirations and create tickets in a special project 90days before.
-> - Allows AI to answer "How many outages have we had on Microsoft Services this year".
+> - Correlates live infrastructure dependencies directly with third-party service providers to rapidly evaluate vendor SLA impact during widespread external cloud outages.
+> - Aggregates procurement and license terms directly within your technical framework to prevent compliance drift and optimize SaaS spend management.
+> 	- Tracks lifecycle milestones and automatically generates renewal evaluation issues within a specialized operations desk precisely 90 days before contract expirations.
+> - Fuels natural language querying to let AI agents run high-level analysis on complex datasets, answering cross-schema questions like "How many critical outages have we logged against Microsoft-dependent services this fiscal year?"
 
 ----
 ### 5. Your Product(s) Context (The Engineering Layer)
@@ -78,8 +78,8 @@ To ensure optimal performance, clean data lifecycle management, and strict acces
 * **Primary Integration:** Compass, Jira Software, and DevOps pipelines to track how engineering changes impact the wider operational business.
 
 >[!NOTE]  Context to your Secret Sauce
-> - Each Product provides context to Teamwork Graph see  [[Getting Confluence Rovo Ready]]
-> - Provide a unifying backbone of how your Business works.
+> - Synthesizes engineering components with the corporate Teamwork Graph to optimize internal AI models (see [[Getting Confluence Rovo Ready]] for space structure requirements).
+> - Forges an architectural backbone that translates technical development shifts, deployment logs, and repository updates directly into transparent business outcomes.
 
 ----
 ### 6. Customer Context (The Impact Layer)
@@ -88,9 +88,8 @@ To ensure optimal performance, clean data lifecycle management, and strict acces
 * **The Context Bridge:** Allows automated alerts to trace from a technical cloud asset up through the process layer to instantly pinpoint impacted customer groups.
 
 >[!NOTE] Feeds Customer Context to your Assets
-> - If you don't have a dedicated Customer Relationship Management tool you can use this.
-> 	- If you do, you can use this as an integration for context.
-> - Can use this for customer support portals, tracking locations of customers inside JSM.
+> - Operates as a dynamic internal registry or surfaces as a flexible synchronization hub for mirroring external CRM platform data across internal support queues.
+> - Imbues customer support channels with deep environmental awareness, surfacing dedicated tenant environments, support tiers, and regional data right inside the service view.
 
 ----
 ### 7. People & Identity (The Relational Anchor)
@@ -100,8 +99,8 @@ To ensure optimal performance, clean data lifecycle management, and strict acces
 
 
 >[!NOTE] Employee Context
-> - Helpful to store skills of teams.
-> - Can be used to trigger processes for change of ownership
+> - Anchors functional business skill matrices and internal capabilities directly to structural teams to build intelligent, resource-aware escalation rules.
+> - Acts as an automated relational checker to handle personnel changes, routing ownership updates, and system access profiles smoothly when organizational restructuring occurs.
 
 
 ----
