@@ -49,4 +49,14 @@ Employees can then log tickets against these registered corporate applications. 
 
 ### Cost Savings
 
-Token usage inside the Microsoft ecosystem by Copilot is at its minimum, likewise On the Atlassian Side Rovo querying data it has access to Natively is also at its lowest cost -- the only expens
+When Rovo queries Confluence or Jira, or when Copilot summarizes a massive SharePoint document or a long Outlook thread, they are using native data graphs optimized specifically for those environments.
+
+- **The Reality:** These vendors price their native search and summarization features on flat-rate per-user seat licenses (or highly optimized, lower-tier internal token rates) because the data doesn't have to leave their infrastructure.
+    
+- **The Savings:** If you tried to bypass this by funneling raw, unstructured Confluence pages and messy SharePoint data wholesale across an external API to an ungrounded, third-party LLM, your token costs would skyrocket exponentially due to massive prompt inflation.
+
+Because the heavy lifting—summarizing data, pulling specific object attributes, and aggregating team updates—happens locally inside the blue and red boxes of `image_49c605.png`, the connection _between_ Rovo and Copilot changes entirely.
+
+- **The Efficiency:** Instead of sending 100 raw pages of documentation across the bridge, Rovo compresses that data into a dense, high-value, semantic payload (like a 200-word architectural summary or a clean JSON schema).
+    
+- **The Math:** You are only paying the high-tier connector token costs for the _distilled insights_ crossing the bridge, rather than the raw data dump.
