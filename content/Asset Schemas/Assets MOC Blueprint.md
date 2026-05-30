@@ -21,7 +21,6 @@ By treating Assets as an Enterprise Context Registry, this design positions the 
 
 ---
 
-
 ## 🗺️ The Enterprise Schema Registry
 
 To ensure optimal performance, clean data lifecycle management, and strict access controls, the registry is split into logical domain boundaries. Each domain operates as an independent schema, cross-linked via reference attributes to form the enterprise web.

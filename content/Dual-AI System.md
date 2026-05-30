@@ -28,12 +28,12 @@ While Atlassian platforms represent the gold standard for project execution and 
 > Deploy **Atlassian Rovo Agents** to query real-time object data from Assets, then pipe that contextual intelligence into **Copilot** using Microsoft Graph Connectors. This empowers Copilot to answer complex, multi-domain prompts like: *"What is the financial impact of our expiring software licenses?"* by directly referencing lived configuration management data.
 ### 🔍 AI Responsibility Matrix
 
-| Capability | Primary AI Engine | Secondary AI Engine | Underlying Data Source |
-| :--- | :--- | :--- | :--- |
-| **Asset & Config Discovery** | Rovo | Copilot (via Sync) | Atlassian Assets Schema |
-| **Meeting Summarization** | Copilot | Rovo (via Action Items) | Teams / Outlook |
-| **Technical Documentation** | Rovo | Copilot | Confluence |
-| **Project & Delivery Status** | Rovo | Copilot | Jira |
+| Capability                    | Primary AI Engine | Secondary AI Engine     | Underlying Data Source  |
+| :---------------------------- | :---------------- | :---------------------- | :---------------------- |
+| **Asset & Config Discovery**  | Rovo              | Copilot (via Sync)      | Atlassian Assets Schema |
+| **Meeting Summarization**     | Copilot           | Rovo (via Action Items) | Teams / Outlook         |
+| **Technical Documentation**   | Rovo              | Copilot                 | Confluence              |
+| **Project & Delivery Status** | Rovo              | Copilot                 | Jira                    |
 
 ---
 ### Abstracting Peripheral Platforms (ERP, HRIS)
@@ -43,30 +43,10 @@ To bridge this gap, **Atlassian Assets** should act as the central metadata regi
 Employees can then log tickets against these registered corporate applications. Ultimately, this allows Rovo to parse complex cross-platform queries, such as: *"What systemic operational issues have internal teams reported concerning products managed by Vendor X?"*
 
 ---
-## 🕸️ Relationship Topology
-```mermaid
-graph LR
-    subgraph "Atlassian Intelligence (Rovo)"
-    IA[IT Assets]
-    C[Confluence]
-    J[Jira]
-    end
-    
-    subgraph "Microsoft Intelligence (Copilot)"
-    T[Teams]
-    O[Outlook]
-    E[Excel]
-    end
-    
-    R((Rovo)) ---|Teamwork Graph| IA
-    R --- C
-    R --- J
-    
-    CP((Copilot)) ---|Microsoft Graph| T
-    CP --- O
-    CP --- E
-    
-    R <-->|Graph Connectors| CP
-    
-    style R fill:#0052CC,color:#fff
-    style CP fill:#00A4EF,color:#fff
+## Relationship Topology
+
+![[rovoncopilot.svg]]
+
+### Cost Savings
+
+Token usage inside the Microsoft ecosystem by Copilot is at its minimum, likewise On the Atlassian Side Rovo querying data it has access to Natively is also at its lowest cost -- the only expens
