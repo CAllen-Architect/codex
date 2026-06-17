@@ -21,6 +21,12 @@ But there is a catch: because it is incredibly flexible, it is devastatingly eas
 
 We achieve this by enforcing a strict, data-first paradigm. Whether we are exploring advanced AI execution, writing custom webhooks, or designing complex workflows, our core framework centers on a single rule: decouple business logic entirely from rigid, hardcoded application configurations. By moving the operational source of truth down to a dynamic, unified context registry (like a Process Asset Library), we transform passive software tracking into a responsive, interconnected spider web of live corporate intelligence.
 
+#### 🗺️ Operational Methodology
+
+_The foundational Map of Context (MOC) detailing our federated, multi-schema design_
+
+> [[Assets MOC Blueprint|Assets Architecture MOC]] — The foundational Map of Context (MOC) detailing our federated, multi-schema design. It outlines how the Process Library, Technical Registry, Cloud Infrastructure, Financial Layers, Engineering Components, Customer Impact, and Identity anchors explicitly intersect to turn a flat database into a living corporate ecosystem.
+
 ### The What: The Engineering Registry
 
 This site functions as an independent sandbox, personal knowledge base, and architectural repository. It houses an evolving collection of:
