@@ -27,14 +27,16 @@ This site functions as an independent sandbox, personal knowledge base, and arch
 
 **📂Decoupled Blueprints:** Field-tested configurations for driving enterprise operations through active asset schemas rather than brittle workflows.
 
-[[Process Asset Library]]  — A recursive state-machine framework utilizing JSM Assets as a dynamic context registry to decouple business logic from workflow engines.
+>[[Process Asset Library]]  — A recursive state-machine framework utilizing JSM Assets as a dynamic context registry to decouple business logic from workflow engines.
 
+----
 
 **🤖AI & Automation Intel:** Deep-dives, token optimization strategies, and onboarding frameworks for natural language layers like Atlassian Rovo.
 
-[[Getting Confluence Rovo Ready]] — Tactical grooming strategies to maximize data hygiene and semantic precision for the Teamwork Graph.
+>[[Getting Confluence Rovo Ready]] — Tactical grooming strategies to maximize data hygiene and semantic precision for the Teamwork Graph.
 
+----
 
 **📝 Architectural Artifacts:** One-off philosophical thought pieces, systemic diagrams, and scaling methodologies born from real-world execution.
 
-[[My thoughts on AI]] — An essay on navigating the modern AI landscape, implementing proper execution guardrails, and focusing on quiet, process-driven value over marketing hype.
+>[[My thoughts on AI]] — An essay on navigating the modern AI landscape, implementing proper execution guardrails, and focusing on quiet, process-driven value over marketing hype.
