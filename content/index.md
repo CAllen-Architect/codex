@@ -5,17 +5,10 @@ status: Drafting
 ---
 <img src="https://callen-architect.github.io/nexus/static/callenavatar.jpg" style="width: 120px; height: 120px; border-radius: 50%; border: 2px solid var(--lightgray); box-shadow: 0 4px 6px rgba(0,0,0,0.1); float: left; margin: 0 1.5rem 1rem 0;" alt="CAllen Avatar" /> 
 
-# Atlassian Systems Architecture Codex
-
----
-title: Home | Atlassian Systems Architecture
-publish: true
-status: Drafting
----
 
 # Atlassian Systems Architecture Codex
 
-Welcome to the central repository for enterprise engineering frameworks, workflow topologies, and federated asset schema blueprints. This codex serves as an active, evolving source of truth for modern, intent-driven Atlassian ecosystems.
+Welcome to a central repository for enterprise engineering frameworks, workflow topologies, and federated asset schema blueprints. This codex serves as an active, evolving source of truth for modern, intent-driven Atlassian ecosystems.
 
 ---
 
