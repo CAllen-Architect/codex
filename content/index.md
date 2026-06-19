@@ -11,6 +11,10 @@ status: Current
 Welcome to a central repository for enterprise engineering frameworks, workflow topologies, and federated asset schema blueprints. This codex serves as an active, evolving source of truth for modern, intent-driven Atlassian ecosystems.
 
 ---
+
+Latest Article: [[Jira Service Management|Why Jira Service Management Wins the Enterprise]]
+
+----
 ### The Why: Unlocking the Best Business System on Earth
 
 I truly believe that when you strip away the corporate noise, the Atlassian platform is the single most powerful enterprise business system on earth. It possesses an unmatched capacity to map, orchestrate, and accelerate human and technical collaboration.
