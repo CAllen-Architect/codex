@@ -55,15 +55,15 @@ Security and content isolation are achieved by splitting the source code into tw
 
 #### 🧰 The Obsidian Core Engine
 
-The local workspace uses Obsidian, enhanced by a heavily curated collection of community plugins configured to mirror enterprise application mechanics:
+The local workspace uses [[https://obsidian.md/|Obsidian]] , enhanced by a heavily curated collection of community plugins configured to mirror enterprise application mechanics:
 
 - **Git Plugin:** The absolute gold standard for data lifecycle management. It automatically handles local-to-remote staging, committing, and pushing from the desktop and mobile clients straight to GitHub.
     
-- **Quartz:** The deployment catalyst. It parses the Obsidian markdown file structures and automatically compiles them into a fast, responsive, and minimalist static website.
+- **[[https://quartz.jzhao.xyz/|Quartz]] :** The deployment catalyst. It parses the Obsidian markdown file structures and automatically compiles them into a fast, responsive, and minimalist static website.
     
 - **Kanban Plugin:** The "poor man's Jira." It structures my content pipelines, technical backlogs, and presentation drafts into clean, highly scannable visual columns without the overhead of an enterprise tracking server.
     
-- **Excalidraw Plugin:** Used for systemic diagrams. It offers complete visual layout control and a clean, hand-drawn aesthetic that looks professional without being constrained by the rigid structure of automated syntax libraries like Mermaid.
+- **[[https://plus.excalidraw.com/|Excalidraw Plugin]] :** Used for systemic diagrams. It offers complete visual layout control and a clean, hand-drawn aesthetic that looks professional without being constrained by the rigid structure of automated syntax libraries like Mermaid.
     
 
 ### 🤖 The Companion Guardrail: Human-Directed AI
