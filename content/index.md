@@ -12,7 +12,9 @@ Welcome to a central repository for enterprise engineering frameworks, workflow 
 
 ---
 
-Latest Article: [[Jira Service Management|Why Jira Service Management Wins the Enterprise]]
+Latest Articles: 
+* [[About this project|Meta: Engineering the Codex (How This Site Was Built)]]
+* [[Jira Service Management|Why Jira Service Management Wins the Enterprise]]
 
 ----
 ### The Why: Unlocking the Best Business System on Earth
